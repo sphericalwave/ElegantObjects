@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF85C7CC22C99AAE0011467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7CB22C99AAE0011467E /* AppDelegate.swift */; };
-		AF85C7CE22C99AAE0011467E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7CD22C99AAE0011467E /* ViewController.swift */; };
-		AF85C7D122C99AAE0011467E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF85C7CF22C99AAE0011467E /* Main.storyboard */; };
 		AF85C7D422C99AAE0011467E /* ElegantObjects.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7D222C99AAE0011467E /* ElegantObjects.xcdatamodeld */; };
 		AF85C7D622C99AAF0011467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF85C7D522C99AAF0011467E /* Assets.xcassets */; };
-		AF85C7D922C99AAF0011467E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF85C7D722C99AAF0011467E /* LaunchScreen.storyboard */; };
 		AF85C7E422C99AAF0011467E /* ElegantObjectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7E322C99AAF0011467E /* ElegantObjectsTests.swift */; };
 		AF85C7EF22C99AAF0011467E /* ElegantObjectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7EE22C99AAF0011467E /* ElegantObjectsUITests.swift */; };
+		AF85C80422C99AE40011467E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7FC22C99AE30011467E /* UIViewController+Extensions.swift */; };
+		AF85C80522C99AE40011467E /* ElegantObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7FD22C99AE30011467E /* ElegantObjects.swift */; };
+		AF85C80622C99AE40011467E /* SWTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7FE22C99AE30011467E /* SWTheme.swift */; };
+		AF85C80722C99AE40011467E /* GraphPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C7FF22C99AE30011467E /* GraphPages.swift */; };
+		AF85C80822C99AE40011467E /* Graphs.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF85C80022C99AE30011467E /* Graphs.xib */; };
+		AF85C80922C99AE40011467E /* Graphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C80122C99AE40011467E /* Graphs.swift */; };
+		AF85C80A22C99AE40011467E /* SwSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C80222C99AE40011467E /* SwSegmentControl.swift */; };
+		AF85C80B22C99AE40011467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF85C80322C99AE40011467E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +40,8 @@
 
 /* Begin PBXFileReference section */
 		AF85C7C822C99AAE0011467E /* ElegantObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElegantObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF85C7CB22C99AAE0011467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF85C7CD22C99AAE0011467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF85C7D022C99AAE0011467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF85C7D322C99AAE0011467E /* ElegantObjects.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElegantObjects.xcdatamodel; sourceTree = "<group>"; };
 		AF85C7D522C99AAF0011467E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF85C7D822C99AAF0011467E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF85C7DA22C99AAF0011467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF85C7DF22C99AAF0011467E /* ElegantObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElegantObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF85C7E322C99AAF0011467E /* ElegantObjectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantObjectsTests.swift; sourceTree = "<group>"; };
@@ -49,6 +49,14 @@
 		AF85C7EA22C99AAF0011467E /* ElegantObjectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElegantObjectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF85C7EE22C99AAF0011467E /* ElegantObjectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegantObjectsUITests.swift; sourceTree = "<group>"; };
 		AF85C7F022C99AAF0011467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF85C7FC22C99AE30011467E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		AF85C7FD22C99AE30011467E /* ElegantObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElegantObjects.swift; sourceTree = "<group>"; };
+		AF85C7FE22C99AE30011467E /* SWTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWTheme.swift; sourceTree = "<group>"; };
+		AF85C7FF22C99AE30011467E /* GraphPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPages.swift; sourceTree = "<group>"; };
+		AF85C80022C99AE30011467E /* Graphs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Graphs.xib; sourceTree = "<group>"; };
+		AF85C80122C99AE40011467E /* Graphs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphs.swift; sourceTree = "<group>"; };
+		AF85C80222C99AE40011467E /* SwSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwSegmentControl.swift; sourceTree = "<group>"; };
+		AF85C80322C99AE40011467E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +107,15 @@
 		AF85C7CA22C99AAE0011467E /* ElegantObjects */ = {
 			isa = PBXGroup;
 			children = (
-				AF85C7CB22C99AAE0011467E /* AppDelegate.swift */,
-				AF85C7CD22C99AAE0011467E /* ViewController.swift */,
-				AF85C7CF22C99AAE0011467E /* Main.storyboard */,
+				AF85C80322C99AE40011467E /* AppDelegate.swift */,
+				AF85C7FD22C99AE30011467E /* ElegantObjects.swift */,
+				AF85C80122C99AE40011467E /* Graphs.swift */,
+				AF85C80022C99AE30011467E /* Graphs.xib */,
+				AF85C7FF22C99AE30011467E /* GraphPages.swift */,
+				AF85C80222C99AE40011467E /* SwSegmentControl.swift */,
+				AF85C7FE22C99AE30011467E /* SWTheme.swift */,
+				AF85C7FC22C99AE30011467E /* UIViewController+Extensions.swift */,
 				AF85C7D522C99AAF0011467E /* Assets.xcassets */,
-				AF85C7D722C99AAF0011467E /* LaunchScreen.storyboard */,
 				AF85C7DA22C99AAF0011467E /* Info.plist */,
 				AF85C7D222C99AAE0011467E /* ElegantObjects.xcdatamodeld */,
 			);
@@ -196,6 +208,7 @@
 				TargetAttributes = {
 					AF85C7C722C99AAE0011467E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					AF85C7DE22C99AAF0011467E = {
 						CreatedOnToolsVersion = 10.1;
@@ -232,9 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF85C7D922C99AAF0011467E /* LaunchScreen.storyboard in Resources */,
+				AF85C80822C99AE40011467E /* Graphs.xib in Resources */,
 				AF85C7D622C99AAF0011467E /* Assets.xcassets in Resources */,
-				AF85C7D122C99AAE0011467E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +271,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF85C7CE22C99AAE0011467E /* ViewController.swift in Sources */,
+				AF85C80B22C99AE40011467E /* AppDelegate.swift in Sources */,
+				AF85C80422C99AE40011467E /* UIViewController+Extensions.swift in Sources */,
+				AF85C80622C99AE40011467E /* SWTheme.swift in Sources */,
+				AF85C80922C99AE40011467E /* Graphs.swift in Sources */,
+				AF85C80722C99AE40011467E /* GraphPages.swift in Sources */,
+				AF85C80A22C99AE40011467E /* SwSegmentControl.swift in Sources */,
 				AF85C7D422C99AAE0011467E /* ElegantObjects.xcdatamodeld in Sources */,
-				AF85C7CC22C99AAE0011467E /* AppDelegate.swift in Sources */,
+				AF85C80522C99AE40011467E /* ElegantObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +312,6 @@
 			targetProxy = AF85C7EB22C99AAF0011467E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AF85C7CF22C99AAE0011467E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF85C7D022C99AAE0011467E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF85C7D722C99AAF0011467E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF85C7D822C99AAF0011467E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF85C7F122C99AAF0011467E /* Debug */ = {
@@ -436,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElegantObjects/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sw.ElegantObjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ElegantObjects/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
